@@ -1,5 +1,10 @@
-## NIST Cybersecurity Assessment
+**Purpose:**  
+Evaluates Oscorp’s current cybersecurity controls against the NIST Cybersecurity Framework.
 
-This folder contains the baseline cybersecurity assessment of Oscorp aligned with NIST standards. The assessment evaluates the organization’s current security posture against NIST SP 800-53 requirements.
+**Contents:**
+- NIST CSF-based control assessment (Identify, Protect, Detect, Respond, Recover)
+- Pass/Fail or maturity evaluation of controls
+- Evidence and observations
 
-The results of this assessment are used as input for NIST control mapping and control evaluation in subsequent GRC stages.
+**Outcome:**  
+Defines Oscorp’s current security posture (“As-Is State”).
