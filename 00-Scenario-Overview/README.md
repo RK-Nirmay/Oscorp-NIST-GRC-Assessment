@@ -1,5 +1,12 @@
-## Scenario Overview
+**Purpose:**  
+Defines the scope, assumptions, objectives, and boundaries of the GRC assessment.
 
-This folder contains the background scenario and current-state analysis of Oscorp. It describes the organization’s cybersecurity environment, existing weaknesses, and operational context.
+**Contents:**
+- Organizational overview (Oscorp SME profile)
+- Assessment objectives and scope
+- In-scope and out-of-scope areas
+- Key assumptions and constraints
+- Frameworks used (NIST CSF & NIST SP 800-53)
 
-The scenario serves as the foundation for the entire GRC assessment and drives asset identification, risk assessment, and control evaluation.
+**Outcome:**  
+Establishes the foundation for the entire GRC assessment.
