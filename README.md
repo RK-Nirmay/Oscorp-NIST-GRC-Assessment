@@ -1,143 +1,233 @@
-# Oscorp NIST SP 800-53 GRC Assessment Project
+# 🛡️ Oscorp NIST-Based GRC Cybersecurity Assessment  
+## Enterprise-Grade Governance, Risk & Compliance (GRC) Project | NIST CSF & NIST SP 800-53
 
-## 📌 Overview
-
-This repository presents a comprehensive Governance, Risk, and Compliance (GRC) assessment conducted for a simulated organization, **Oscorp**, using the **NIST SP 800-53 Rev. 5** framework. The project demonstrates a structured, enterprise-style cybersecurity assessment lifecycle, including asset identification, risk assessment, NIST baseline assessment, control mapping, control evaluation, policy mapping, gap analysis, and the development of a prioritized security roadmap.
-
-This project is designed as a professional portfolio artifact to showcase practical GRC skills, risk-based methodology, and alignment with globally recognized cybersecurity standards.
-
----
-
-## 🎯 Objectives
-
-The primary objectives of this project are:
-
-* Identify critical organizational assets and dependencies
-* Analyze cybersecurity risks based on threats and vulnerabilities
-* Assess the organization’s current security posture using NIST standards
-* Map risks to NIST SP 800-53 control families and controls
-* Evaluate control implementation status (Implemented / Partially Implemented / Not Implemented)
-* Assess governance and policy maturity
-* Identify gaps between current and required security states
-* Develop prioritized recommendations and a phased security roadmap
-* Consolidate findings into a professional GRC assessment report
+![Framework](https://img.shields.io/badge/Framework-NIST%20CSF%20%7C%20NIST%20SP%20800--53-blue)
+![Domain](https://img.shields.io/badge/Domain-GRC%20%7C%20Cybersecurity%20Risk-orange)
+![Level](https://img.shields.io/badge/Level-Professional%20Consulting-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## 🧭 GRC Lifecycle & Methodology
+## 📖 Executive Summary
 
-The assessment follows a structured, risk-based GRC workflow:
+This repository presents a **full-scale professional Governance, Risk, and Compliance (GRC) cybersecurity assessment** conducted for a fictional Small/Medium Enterprise (SME), **Oscorp**.
 
-**Scenario → Assets → Risks → NIST Assessment → Control Mapping → Control Evaluation → Policy Mapping → Gap Analysis → Recommendations → Reporting**
+The project simulates a real-world cybersecurity consulting engagement using globally recognized frameworks:
 
-### Methodological Steps
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-53 Rev.5
+- Risk-based GRC methodology
 
-1. Scenario Analysis – Understanding Oscorp’s operational and cybersecurity context
-2. Asset Identification – Cataloging critical systems, data, and infrastructure
-3. Risk Assessment – Identifying threats, vulnerabilities, and calculating risk scores
-4. NIST Baseline Assessment – Evaluating current security posture against NIST SP 800-53
-5. Control Mapping – Linking identified risks to relevant NIST controls
-6. Control Evaluation – Assessing control implementation status and effectiveness
-7. Policy Mapping – Evaluating organizational policies against NIST requirements
-8. Gap Analysis – Identifying deviations between current and desired security states
-9. Recommendations & Roadmap – Developing prioritized remediation actions
-10. Final Reporting – Consolidating findings into a professional GRC report
+The assessment evaluates Oscorp’s current security posture, identifies risks and gaps, maps them to NIST controls, defines a target security state, and delivers a prioritized remediation roadmap.
+
+This repository is designed as a **professional cybersecurity GRC portfolio project**, demonstrating real consulting-style deliverables.
 
 ---
 
-## 🗂 Repository Structure
+## 🎯 Project Objectives
 
-```
+The main objectives of this GRC assessment are:
+
+- Identify and classify critical business and IT assets  
+- Assess cybersecurity risks impacting organizational assets  
+- Evaluate existing security controls against NIST standards  
+- Identify gaps between current and required controls  
+- Map risks and gaps to NIST SP 800-53 controls  
+- Define a realistic Information Security Target State (IST)  
+- Develop a structured and prioritized security improvement roadmap  
+
+---
+
+## 🏢 Organizational Context — Oscorp (SME Model)
+
+Oscorp is modeled as a modern SME with the following characteristics:
+
+- Cloud-centric infrastructure (Microsoft Azure & Office 365)
+- Active Directory-based identity management
+- Dependency on SaaS applications (e.g., Horizon Labs)
+- Limited formal cybersecurity governance
+- Partial technical controls but weak monitoring and governance
+
+This scenario reflects real-world cybersecurity challenges faced by many SMEs.
+
+---
+
+## 🔄 GRC Assessment Lifecycle
+
+The project follows an enterprise-level GRC lifecycle aligned with industry best practices:
+
+Scope & Context Definition
+↓
+Asset Inventory & Classification
+↓
+Risk Assessment & Risk Register
+↓
+NIST Current State Control Assessment
+↓
+Gap Analysis
+↓
+NIST Control Mapping
+↓
+Control Effectiveness Evaluation
+↓
+Policy & Procedure Mapping
+↓
+Information Security Target State (IST)
+↓
+Recommendations & Strategic Roadmap
+↓
+Final GRC Assessment Report
+
+
+This methodology mirrors real-world GRC consulting engagements.
+
+---
+
+## 📁 Repository Structure
+
 Oscorp-NIST-GRC-Assessment/
 │
-├── 00-Scenario-Overview/            # Organizational context and current-state analysis
-├── 01-Asset-Inventory/              # Asset identification and classification
-├── 02-Risk-Assessment/              # Risk register and scoring analysis
-├── 03-NIST-Assessment/              # Baseline NIST cybersecurity assessment
-├── 04-NIST-Control-Mapping/         # Mapping of risks to NIST SP 800-53 controls
-├── 05-Control-Evaluation/           # Control implementation evaluation
-├── 06-Policy-Mapping/               # Governance and policy assessment
-├── 07-Gap-Analysis/                 # Identification of security gaps
-├── 08-Recommendations-Roadmap/      # Prioritized remediation roadmap
-├── Final-Report/                    # Professional GRC assessment report
-└── README.md                        # Project overview and documentation
-```
+├── 00-Scope-and-Context/
+├── 01-Asset-Inventory/
+├── 02-Risk-Assessment/
+├── 03-NIST-Assessment/
+├── 04-Gap-Analysis/
+├── 05-NIST-Control-Mapping/
+├── 06-Control-Evaluation/
+├── 07-Policy-Mapping/
+├── 08-IST-Target-State/
+├── 09-Recommendations-and-Roadmap/
+├── Final-Report/
+└── README.md
+
+
+Each folder contains structured Excel deliverables and documentation replicating real consulting artifacts.
 
 ---
 
-## 🛡 Frameworks & Standards Applied
+## 📊 Key Deliverables
 
-* **NIST SP 800-53 Rev. 5** – Security and Privacy Controls
-* **NIST Cybersecurity Framework (CSF)** – Identify, Protect, Detect, Respond, Recover
-* Risk-based assessment methodology
-* Governance, Risk, and Compliance (GRC) principles
+This repository includes the following professional GRC artifacts:
 
----
+- 📋 Asset Inventory Register  
+- ⚠️ Risk Register  
+- 🧠 NIST Current State Assessment  
+- 🔍 Gap Analysis Matrix  
+- 🔗 NIST Control Mapping  
+- 📈 Control Effectiveness Evaluation  
+- 📜 Policy Mapping Matrix  
+- 🎯 Information Security Target State (IST)  
+- 🗺️ Recommendations & Security Roadmap  
+- 📑 Final GRC Assessment Report  
 
-## 📊 Key Assessment Areas
-
-The assessment focuses on the following cybersecurity domains:
-
-* Identity and Access Management (IAM)
-* Data Protection and Cryptography
-* Security Monitoring and Logging
-* Incident Response and Detection
-* Governance and Security Strategy
-* Third-Party and Supply Chain Risk
+These deliverables are aligned with enterprise GRC practices.
 
 ---
 
-## 📉 Summary of Findings (High-Level)
+## 🔐 Key Assessment Findings
 
-The assessment identified several critical weaknesses in Oscorp’s cybersecurity posture:
+### ✅ Strengths Identified
 
-* Absence of multi-factor authentication (MFA) and weak access control mechanisms
-* Lack of centralized security monitoring and SIEM capabilities
-* Insufficient data protection and encryption controls
-* Weak cybersecurity governance and absence of formal security strategy
-* Lack of structured third-party risk management processes
+- Cloud infrastructure adoption (Azure & Office 365)
+- Network security controls (firewalls, segmentation)
+- Backup and disaster recovery mechanisms
+- Physical security controls
 
-Approximately **60–70% of assessed NIST SP 800-53 controls** were found to be **Not Implemented** or **Partially Implemented**, indicating a low to moderate security maturity level.
+### ❗ Critical Gaps Identified
 
----
-
-## 📈 Deliverables
-
-This repository includes the following key deliverables:
-
-* Asset Inventory Register
-* Risk Register and Risk Scoring Model
-* NIST Baseline Assessment Checklist
-* NIST SP 800-53 Control Mapping Matrix
-* Control Evaluation Matrix
-* Policy Mapping and Governance Assessment
-* Gap Analysis Report
-* Recommendations and Security Roadmap
-* Final GRC Assessment Report (Word/PDF)
+- Absence of Multi-Factor Authentication (MFA)
+- Weak privileged access management (PAM)
+- Lack of centralized monitoring (SIEM)
+- No formal incident response framework
+- Weak governance and cybersecurity strategy
+- No data classification or DLP controls
+- No third-party risk management process
 
 ---
 
-## 🧠 Skills Demonstrated
+## 📉 Cybersecurity Maturity Overview
 
-This project demonstrates practical expertise in:
-
-* Governance, Risk, and Compliance (GRC)
-* NIST SP 800-53 control analysis and mapping
-* Risk assessment and quantitative scoring
-* Cybersecurity governance and policy evaluation
-* Gap analysis and remediation planning
-* Professional cybersecurity documentation
-* Security maturity assessment and reporting
+| Domain                         | Maturity Level |
+|--------------------------------|--------------|
+| Governance & Strategy          | Low          |
+| Identity & Access Management   | Low          |
+| Monitoring & Detection         | Low          |
+| Incident Response              | Low          |
+| Data Security                  | Low          |
+| Vulnerability Management       | Medium-Low   |
+| Network Security               | Medium       |
+| Business Continuity & Recovery | Medium       |
+| Overall Security Posture       | Low–Medium   |
 
 ---
 
-## 👤 Author
+## 🎯 Information Security Target State (IST)
 
-**Nirmay Soni**
-Cybersecurity & GRC Enthusiast
+The target state aims to elevate Oscorp’s cybersecurity maturity from **Low/Medium** to **Medium/High**, focusing on:
 
+- Strong identity and access management (MFA, PAM, RBAC)
+- Centralized security monitoring and detection (SIEM)
+- Formal governance and risk management
+- Data protection and classification (DLP, encryption)
+- Structured incident response capability
+- Vendor and third-party risk governance
+
+---
+
+## 🗺️ Strategic Security Roadmap
+
+### Phase 1 — Quick Wins (0–3 Months)
+
+- Deploy MFA and eliminate shared admin accounts  
+- Establish core security policies  
+- Formalize vulnerability management  
+
+### Phase 2 — Core Security Controls (3–6 Months)
+
+- Implement SIEM and centralized logging  
+- Develop incident response framework  
+- Implement data classification and DLP  
+
+### Phase 3 — Security Maturity & Optimization (6–12 Months)
+
+- Deploy PAM and SOC capabilities  
+- Conduct periodic risk assessments  
+- Strengthen third-party risk management  
+
+---
+
+## 🧠 Why This Project Is Unique
+
+Unlike generic cybersecurity projects, this repository demonstrates:
+
+- Real-world GRC methodology
+- NIST-aligned control mapping and gap analysis
+- Risk-driven decision-making
+- Consulting-style documentation and structure
+- SME-realistic cybersecurity posture
+- End-to-end GRC lifecycle implementation
+
+This project is suitable for demonstrating skills in:
+
+- GRC & Cyber Risk Consulting  
+- Information Security Governance  
+- Compliance & Risk Management  
+- Cybersecurity Advisory  
+
+---
+
+## 👨‍💻 Author & Purpose
+
+This project was developed by **Nirmay Soni** as a professional cybersecurity GRC portfolio to simulate a real consulting engagement and demonstrate structured thinking in governance, risk, and compliance.
+
+The purpose of this project is to showcase practical application of NIST frameworks, risk-based decision-making, and enterprise-level GRC methodology in a realistic SME environment.
 ---
 
 ## ⚠️ Disclaimer
 
-This project is a simulated case study created for educational and portfolio purposes only. It does not represent a real organization, real vulnerabilities, or real security posture.
+This project is based on a fictional organization (Oscorp).  
+All data, scenarios, and assessments are created for educational and professional demonstration purposes only.
+
+---
+
+⭐ If you find this project valuable, you can use it as a reference for learning GRC and building cybersecurity portfolios.
