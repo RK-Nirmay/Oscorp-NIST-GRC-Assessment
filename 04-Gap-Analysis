@@ -1,0 +1,10 @@
+**Purpose:**  
+Identifies gaps between Oscorp’s current controls and NIST-required controls.
+
+**Contents:**
+- Comparison of current vs required security controls
+- Gap severity and impact analysis
+- Mapping of gaps to risks and assets
+
+**Outcome:**  
+Highlights critical weaknesses requiring remediation.
