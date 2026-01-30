@@ -1,8 +1,10 @@
-## Risk Assessment
+**Purpose:**  
+Identifies cybersecurity risks associated with Oscorp’s assets and evaluates their impact.
 
-This folder contains the risk identification and risk scoring analysis conducted for Oscorp. Risks were identified based on threats, vulnerabilities, and asset criticality.
+**Contents:**
+- Risk register (threats, vulnerabilities, impact, likelihood)
+- Risk scoring and prioritization
+- Risk categorization (Critical, High, Medium, Low)
 
-Risk scoring methodology:
-Risk Score = Impact × Likelihood
-
-Risks are categorized as High, Medium, or Low. The risk register provides the foundation for NIST control mapping.
+**Outcome:**  
+Creates a risk-driven foundation for control assessment and remediation planning.
